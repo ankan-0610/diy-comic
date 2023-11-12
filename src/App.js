@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Create from "./Create.js";
+import React, { useState } from "react";
 
 function App() {
+  const [generatedImages, setGeneratedImages] = useState([]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="app-container">
+        <div className="content">
+          <h1>DIY COMIC APP</h1>
+          <h2>Welcome to the AI-powered Comic App</h2>
+        </div>
+      </div>
+      <Create onImagesGenerated={setGeneratedImages} />
+
     </div>
   );
 }
