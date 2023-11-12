@@ -30,4 +30,4 @@ If you'd like to contribute, please fork the repository and create a pull reques
 - [Ankan Dey](https://github.com/ankan-0610) - Developer
 
 ## Acknowledgements
-- Thanks to dashtoon.ai for the opportunity to build this project
+- Thanks to [dashtoon.ai](https://www.dashtoon.ai/) for the opportunity to build this project
